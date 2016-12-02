@@ -48,6 +48,7 @@ public class RxJavaZip {
         List<Integer> integers = new ArrayList<>();
         integers.add(1);
         integers.add(2);
+        //integers.add(2);
         return Observable.from(integers);
     }
 
