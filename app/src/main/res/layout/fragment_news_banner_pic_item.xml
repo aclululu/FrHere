@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+           />
+    <TextView
+        android:id="@+id/title"
+        android:gravity="left"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:maxLines="1"
+        android:text="宅男女神李秀彬不科学超大"
+        android:layout_alignParentBottom="true"
+        android:background="#55000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

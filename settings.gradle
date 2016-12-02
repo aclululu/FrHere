@@ -1,0 +1,1 @@
+include ':app', ':MaterialDesign',':jcvideoplayer-lib',':easyrecyclerview',':PhotoPicker',':crop'

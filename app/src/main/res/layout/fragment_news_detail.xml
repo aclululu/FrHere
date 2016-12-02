@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <com.fr.here.widget.statusview.MultipleStatusView
+        android:id="@+id/multiplestatusview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:loadingView="@layout/custom_loading_view"
+        app:emptyView="@layout/custom_empty_view"
+        app:errorView="@layout/custom_error_view"
+        app:noNetworkView="@layout/custom_no_network_view"
+        >
+    </com.fr.here.widget.statusview.MultipleStatusView>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+</LinearLayout>

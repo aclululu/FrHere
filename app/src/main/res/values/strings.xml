@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">你好，旧时光</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="iskip">跳过</string>
+    <string name="idone">完成导向</string>
+
+    <string name="news">新闻快讯</string>
+    <string name="news_pic">图片新闻</string>
+    <string name="supply">供需平台</string>
+    <string name="video">视频中心</string>
+
+    <string name="system">系统</string>
+    <string name="setting">设置</string>
+    <string name="aboutapp">关于应用</string>
+    <string name="aboutfr">关于我们</string>
+    <string name="press_again_exit">再按一次退出</string>
+
+    <string name="empty_view_hint">暂无数据</string>
+    <string name="error_view_hint">加载失败</string>
+    <string name="no_network_view_hint">网络异常</string>
+
+
+
+</resources>

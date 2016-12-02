@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_pic_news"
+        android:orderInCategory="100"
+        android:title="纯图"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_text_news"
+        android:orderInCategory="100"
+        android:title="纯文"
+        app:showAsAction="never" />
+</menu>
