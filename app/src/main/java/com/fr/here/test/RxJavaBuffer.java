@@ -22,6 +22,7 @@ public class RxJavaBuffer {
         list.add("5");
         list.add("6");
         list.add("7");
+        list.add("8");
         Observable.from(list)
                 //.buffer(2)//buffer(count):每接收到count个数据包裹，将这count个包裹打包，发送给订阅者
                 /**
