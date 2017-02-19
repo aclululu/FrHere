@@ -1,44 +1,26 @@
 package com.fr.here.net;
 
-import android.content.Context;
-import android.support.design.widget.Snackbar;
-import android.view.View;
-import android.widget.Toast;
-
 import com.fr.here.BuildConfig;
 import com.fr.here.app.BaseApplication;
-import com.fr.here.app.C;
-import com.fr.here.base.BaseResponse;
-import com.fr.here.base.BaseResponseResult;
-import com.fr.here.ui.news.vo.News;
 import com.fr.here.util.NetUtils;
-import com.fr.here.util.PLog;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParseException;
-import com.google.gson.reflect.TypeToken;
-
 import java.io.File;
 import java.io.IOException;
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
 import java.util.Date;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import okhttp3.Cache;
 import okhttp3.CacheControl;
 import okhttp3.Interceptor;
-import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import okhttp3.RequestBody;
 import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
-import retrofit2.Converter;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
